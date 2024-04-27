@@ -126,7 +126,7 @@ class StudentManager {
             } else if (student instanceof Graduate && ((Graduate) student).name.equalsIgnoreCase(name)) {
                 student.showStudentDetails();
                 found = true;
-            }
+            } 
         }
         if (!found) {
             System.out.println("No student found with the name: " + name);
