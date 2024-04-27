@@ -38,15 +38,15 @@ The Students Management System provides a platform for educational institutions 
 
 ## Contributers
 
-- **Ai Paung Bra**
+- **Ai Paung Bra (6631503052)**
 
-- **Chan Nyein Thu**
+- **Chan Nyein Thu (6631503055)**
 
-- **Htun Khant**
+- **Htun Khant (6631503059)**
   
-- **Tay Zar Tun**
+- **Tay Zar Tun (6631503089)**
   
-- **Thwin Khant Nyar Zaw**
+- **Thwin Khant Nyar Zaw (6631503096)**
 
 ## Contact
 
