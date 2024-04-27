@@ -24,7 +24,7 @@ The Students Management System provides a platform for educational institutions 
 
 - Java Development Kit (JDK) installed
 
-### Set Up
+## Set Up
 
 - **Clone the repository**
 
