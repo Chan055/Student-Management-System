@@ -1,0 +1,3 @@
+interface Student {
+    void showStudentDetails();
+}
