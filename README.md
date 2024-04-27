@@ -1,6 +1,6 @@
 # Students Management System
 
-## Background and Rationale
+## Description
 
 The Students Management System provides a platform for educational institutions to efficiently manage student data. It is built on the principles of object-oriented programming (OOP) and interface-based design, allowing for easy extension and maintenance. The system utilizes file handling for persistence, ensuring data integrity between sessions.
 
@@ -17,12 +17,6 @@ The Students Management System provides a platform for educational institutions 
 5. **Search Student by Name (Option 5):** Searches for students based on a name input, useful for large databases where manual searching is inefficient.
 
 6. **Exit (Option 6):** Terminates the program, providing a clean and controlled exit.
-
-## Usage
-
-### Prerequisites
-
-- Java Development Kit (JDK) installed
 
 ## Set Up
 
