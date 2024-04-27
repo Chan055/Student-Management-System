@@ -280,10 +280,10 @@ public class Main {
 
                         studentManager.searchStudentByName(nameKeyword);
                         break;
-                    case 6:
+                    case 6:    
                         System.out.println("Exiting...");
                         System.exit(0);
-                        break;
+                        break;    
 
 
                     default:
@@ -291,7 +291,7 @@ public class Main {
                 }
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input");
-                sc.nextLine();
+                sc.nextLine();                                       
             }
         }
     }
