@@ -204,8 +204,8 @@ public class Main {
                                 sc.nextLine(); // Consume newline
                             } catch (InputMismatchException e) {
                                 System.out.println("Invalid input. Please enter a valid integer ID.");
-                                sc.nextLine(); // Clear input buffer
-                                break; // Exit the current case to prevent further execution
+                                sc.nextLine(); 
+                                break; 
                             }
 
                             if (typeOfStudent.equalsIgnoreCase("Undergraduate")) {
