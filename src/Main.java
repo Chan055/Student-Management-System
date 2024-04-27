@@ -195,6 +195,7 @@ public class Main {
                             if (!name.matches("[a-zA-Z\\s]+")) {  
                                 System.out.println("Invalid input. Please enter only alphabetic characters for the name.");
                                 break; 
+                            }
 
                             System.out.print("Id : ");
                             long id;
