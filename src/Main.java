@@ -192,10 +192,9 @@ public class Main {
                             System.out.print("Name: ");
                             String name = sc.nextLine();
 
-                            if (!name.matches("[a-zA-Z\\s]+")) {  // Allows spaces in names
+                            if (!name.matches("[a-zA-Z\\s]+")) {  
                                 System.out.println("Invalid input. Please enter only alphabetic characters for the name.");
-                                break; // Exit the current case to prevent further execution
-                            }
+                                break; 
 
                             System.out.print("Id : ");
                             long id;
