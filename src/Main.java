@@ -53,7 +53,7 @@ public class Main {
                             long id;
                             try {
                                 id = sc.nextLong();
-                                sc.nextLine(); // Consume newline
+                                sc.nextLine(); 
                             } catch (InputMismatchException e) {
                                 System.out.println("Invalid input. Please enter a valid integer ID.");
                                 sc.nextLine(); 
@@ -83,7 +83,7 @@ public class Main {
                             }
                         } catch (InputMismatchException e) {
                             System.out.println("Invalid input. Please enter valid data.");
-                            sc.nextLine(); // Clear input buffer
+                            sc.nextLine(); 
                         }
                         break;
 
