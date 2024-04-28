@@ -148,13 +148,4 @@ public class Main {
         }
     }
 
-    private static void deleteStudent(Scanner sc, StudentManager studentManager) {
-        System.out.print("Enter 'Undergraduate' or 'Graduate' to specify the type of student you want to delete: ");
-        String type = sc.nextLine();
-        System.out.print("Enter the ID of the student you want to delete: ");
-        int id = sc.nextInt();
-        sc.nextLine();
-
-        studentManager.deleteStudentById(type, id);
-    }
 }
