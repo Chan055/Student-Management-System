@@ -49,15 +49,27 @@ public class Main {
                                 break; 
                             }
 
-                            System.out.print("Id : ");
-                            long id;
-                            try {
-                                id = sc.nextLong();
-                                sc.nextLine(); 
-                            } catch (InputMismatchException e) {
-                                System.out.println("Invalid input. Please enter a valid integer ID.");
-                                sc.nextLine(); 
-                                break; 
+                            long id = 0;
+                            System.out.print("Id: ");
+                    
+                            while (true) {
+                                try {
+                                    id = sc.nextLong(); 
+                                    sc.nextLine(); 
+                                    String idString = String.valueOf(id);
+                    
+                                    if (idString.matches("[1-9][0-9]{9}")) { 
+                                        System.out.println("Valid ID: " + id);
+                                        break; 
+                                    } else {
+                                        System.out.println("Invalid input. Please enter a 10-digit integer ID that does not start with zero.");
+                                        System.out.print("Id: ");
+                                    }
+                                } catch (InputMismatchException e) {
+                                    System.out.println("Invalid input. Please enter a 10-digit integer ID.");
+                                    sc.nextLine(); 
+                                    System.out.print("Id: ");
+                                }
                             }
 
                             if (typeOfStudent.equalsIgnoreCase("Undergraduate")) {
