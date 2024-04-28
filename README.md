@@ -2,7 +2,7 @@
 
 ## Description
 
-The Students Management System provides a platform for educational institutions to efficiently manage student data. It is built on the principles of object-oriented programming (OOP) and interface-based design, allowing for easy extension and maintenance. The system utilizes file handling for persistence, ensuring data integrity between sessions.
+**The Students Management System provides a platform for educational institutions to efficiently manage student data. It is built on the principles of object-oriented programming (OOP) and interface-based design, allowing for easy extension and maintenance. The system utilizes file handling for persistence, ensuring data integrity between sessions.**
 
 ## Functional Overview
 
