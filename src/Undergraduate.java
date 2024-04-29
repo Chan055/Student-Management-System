@@ -1,7 +1,7 @@
 class Undergraduate implements Student {
-    private String name;
-    private String major;
-    private long id;
+    String name;
+    String major;
+    long id;
 
     Undergraduate(String name, long id, String major) {
         this.name = name;
