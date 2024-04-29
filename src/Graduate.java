@@ -1,7 +1,7 @@
 class Graduate implements Student {
-    String name;
-    String job;
-    long id;
+    private String name;
+    private String job;
+    private long id;
 
     Graduate(String name, long id, String job) {
         this.name = name;
